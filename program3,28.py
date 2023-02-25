@@ -5,4 +5,4 @@ celsius = int(input("please enter temperature in celsius: "))
 
 fahrenheit = 9/5 *celsius+ 32
 
-print("Temperature in fahrenheit: ", fahrenheit)
+print("Temperature in fahrenheit: ", fahrenheit,"f")
