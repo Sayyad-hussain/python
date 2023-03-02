@@ -1,9 +1,9 @@
-
 #write a program that inputs a character and display wheather it is 
 #vowel or not.
 
-ch = str(input("please enter a character: "))
+c = input("please enter a character: ")
 
-if ch == 'A' and ch == 'a' and ch == 'E' and ch == 'e' and ch == 'I' and ch == 'i' and ch == 'O' and ch == 'o' and ch == 'U' and ch == 'u' :
-   print("Character is vowel...")
- 
+if c == 'a' or c == 'e' or c == 'i' or c == 'o' or c == 'u' or c == 'A' or c == 'E' or c == 'I' or c == 'O' or c == 'U':
+    print(c, "is a vowel")  
+else:
+    print(c, "is a consonant") 
