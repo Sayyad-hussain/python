@@ -1,5 +1,5 @@
 #write a program that display alphabets form A to Z using for loop.
-i = chr
+j = chr
 
 print("The Alphabets from A to Z are: ");
 
