@@ -5,8 +5,9 @@
 n = int(input("please enter a number: "))
 sum = 0
 for i in range(1,n+1):
+    print(i)
     j = i*i
     sum = sum +  j
-
+    
 print("Sum: ",sum)
 
